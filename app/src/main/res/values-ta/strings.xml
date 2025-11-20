@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JanBookApp</string>
+
+    <!-- Activity 1 - Tamil -->
+    <string name="activity1_title">புத்தக விவரங்களை உள்ளிடவும்</string>
+    <string name="hint_title">புத்தகத்தின் தலைப்பு</string>
+    <string name="hint_author">ஆசிரியர் பெயர்</string>
+    <string name="hint_year">வெளியீட்டு ஆண்டு</string>
+    <string name="btn_submit">தகவலை சமர்ப்பிக்கவும்</string>
+
+    <!-- Activity 2 - Tamil -->
+    <string name="activity2_title">புத்தக விவரங்கள்</string>
+    <string name="btn_take_photo">புகைப்படம் எடுக்கவும்</string>
+    <string name="btn_next">அடுத்த செயல்பாடு</string>
+    <string name="label_title">தலைப்பு:</string>
+    <string name="label_author">ஆசிரியர்:</string>
+    <string name="label_year">ஆண்டு:</string>
+
+    <!-- Activity 3 - Tamil -->
+    <string name="activity3_title">மேலும் செயல்கள்</string>
+    <string name="btn_open_browser">உலாவியை திறக்கவும்</string>
+    <string name="btn_send_email">மின்னஞ்சல் அனுப்பவும்</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/background_light">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity3_title"
+        android:textSize="24sp"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Search Section -->
+    <TextView
+        android:id="@+id/textViewSearchLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search the Web:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:fontFamily="serif"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter search query..."
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:padding="12dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/textViewSearchLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/btn_open_browser"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/editTextSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/primary_text"
+        android:alpha="0.3"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenBrowser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Email Section -->
+    <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:fontFamily="serif"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/btn_send_email"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:backgroundTint="@color/accent_color"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmailLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
