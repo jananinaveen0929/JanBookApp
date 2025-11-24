@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JanBookApp</string>
+
+    <!-- Activity 1 - French -->
+    <string name="activity1_title">Entrez les détails du livre</string>
+    <string name="hint_title">Titre du livre</string>
+    <string name="hint_author">Nom de l\'auteur</string>
+    <string name="hint_year">Année de publication</string>
+    <string name="btn_submit">Soumettre les informations</string>
+
+    <!-- Activity 2 - French -->
+    <string name="activity2_title">Détails du livre</string>
+    <string name="btn_take_photo">Prendre une photo</string>
+    <string name="btn_next">Activité suivante</string>
+    <string name="label_title">Titre:</string>
+    <string name="label_author">Auteur:</string>
+    <string name="label_year">Année:</string>
+
+    <!-- Activity 3 - French -->
+    <string name="activity3_title">Plus d\'actions</string>
+    <string name="btn_open_browser">Ouvrir le navigateur</string>
+    <string name="btn_send_email">Envoyer un e-mail</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Book Info App</string>
+
+    <!-- Activity 1 -->
+    <string name="activity1_title">Enter Book Details</string>
+    <string name="hint_title">Book Title</string>
+    <string name="hint_author">Author Name</string>
+    <string name="hint_year">Publication Year</string>
+    <string name="btn_submit">Submit Book Info</string>
+
+    <!-- Activity 2 -->
+    <string name="activity2_title">Book Details</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_next">Next Activity</string>
+    <string name="label_title">Title:</string>
+    <string name="label_author">Author:</string>
+    <string name="label_year">Year:</string>
+
+    <!-- Activity 3 -->
+    <string name="activity3_title">More Actions</string>
+    <string name="btn_open_browser">Open Browser</string>
+    <string name="btn_send_email">Send Email</string>
+    <string name="jan_book_app" translatable="false">Jan Book App</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom colors-Portrait-->
+    <color name="primary_text">#CA2F22</color>
+    <color name="accent_color">#E74C3C</color>
+    <color name="background_light">#E4B2E4</color>
+    <color name="button_color">#9A3BAD</color>
+
+    <!-- Landscape specific colors -->
+    <color name="background_landscape">#0C1440</color>
+</resources>
